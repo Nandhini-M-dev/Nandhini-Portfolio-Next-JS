@@ -82,6 +82,19 @@
 }
 
 /* ============================================
+   TEXT SELECTION
+   ============================================ */
+::selection {
+  background: #C6A75E;
+  color: #111111;
+}
+
+[data-theme="light"] ::selection {
+  background: #A18445;
+  color: #FFFFFF;
+}
+
+/* ============================================
    RESET & BASE
    ============================================ */
 *, *::before, *::after {
@@ -148,7 +161,8 @@ strong { color: var(--accent); font-weight: 600; }
 
 @media (pointer: fine) {
   .cursor-dot, .cursor-ring { opacity: 1; }
-  *, a, button, input, textarea, select { cursor: none !important; }
+  *, a, button, select { cursor: none !important; }
+  input, textarea { cursor: text !important; }
 }
 
 @media (pointer: coarse) {
