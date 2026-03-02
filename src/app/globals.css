@@ -85,13 +85,13 @@
    TEXT SELECTION
    ============================================ */
 ::selection {
-  background: #C6A75E;
-  color: #111111;
+  background: #C6A75E !important;
+  color: #111111 !important;
 }
 
 [data-theme="light"] ::selection {
-  background: #A18445;
-  color: #FFFFFF;
+  background: #A18445 !important;
+  color: #FFFFFF !important;
 }
 
 /* ============================================
