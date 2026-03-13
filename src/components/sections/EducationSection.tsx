@@ -19,11 +19,13 @@ export default function EducationSection() {
               </h3>
               <p className="edu-school">P.S.R Engineering College</p>
               <p className="edu-detail">CGPA: 9.0</p>
-              <p className="edu-award">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                </svg>
-                {' '}2nd Rank — CS Department (2021–2022)
+              <p className="inline-flex items-center gap-2 mt-2.5 text-xs font-bold tracking-wide text-accent bg-[rgba(198,167,94,0.12)] border border-[rgba(198,167,94,0.35)] rounded-lg px-3.5 py-1.5 shadow-[0_0_12px_rgba(198,167,94,0.1)] hover:bg-[rgba(198,167,94,0.2)] hover:border-[rgba(198,167,94,0.5)] hover:shadow-[0_0_20px_rgba(198,167,94,0.18)] hover:-translate-y-0.5 transition-all duration-300">
+                <span className="flex items-center justify-center w-5.5 h-5.5 rounded-full bg-linear-to-br from-[#C6A75E] to-[#D4B56A] shrink-0">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                  </svg>
+                </span>
+                2nd Rank — CS Department (2021–2022)
               </p>
             </div>
           </div>
@@ -39,6 +41,14 @@ export default function EducationSection() {
                 {' '}Higher Secondary (HSC)
               </h3>
               <p className="edu-school">A.V.M Marimuthu Nadar Higher Secondary School</p>
+              <p className="inline-flex items-center gap-2 mt-2.5 text-xs font-bold tracking-wide text-accent bg-[rgba(198,167,94,0.12)] border border-[rgba(198,167,94,0.35)] rounded-lg px-3.5 py-1.5 shadow-[0_0_12px_rgba(198,167,94,0.1)] hover:bg-[rgba(198,167,94,0.2)] hover:border-[rgba(198,167,94,0.5)] hover:shadow-[0_0_20px_rgba(198,167,94,0.18)] hover:-translate-y-0.5 transition-all duration-300">
+                <span className="flex items-center justify-center w-5.5 h-5.5 rounded-full bg-linear-to-br from-[#C6A75E] to-[#D4B56A] shrink-0">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                  </svg>
+                </span>
+                Percentage: 96.5%
+              </p>
             </div>
           </div>
 
@@ -53,6 +63,14 @@ export default function EducationSection() {
                 {' '}Secondary (SSLC)
               </h3>
               <p className="edu-school">A.V.M Marimuthu Nadar Higher Secondary School</p>
+              <p className="inline-flex items-center gap-2 mt-2.5 text-xs font-bold tracking-wide text-accent bg-[rgba(198,167,94,0.12)] border border-[rgba(198,167,94,0.35)] rounded-lg px-3.5 py-1.5 shadow-[0_0_12px_rgba(198,167,94,0.1)] hover:bg-[rgba(198,167,94,0.2)] hover:border-[rgba(198,167,94,0.5)] hover:shadow-[0_0_20px_rgba(198,167,94,0.18)] hover:-translate-y-0.5 transition-all duration-300">
+                <span className="flex items-center justify-center w-5.5 h-5.5 rounded-full bg-linear-to-br from-[#C6A75E] to-[#D4B56A] shrink-0">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                  </svg>
+                </span>
+                Percentage: 92.5%
+              </p>
             </div>
           </div>
         </div>
